@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Selezione a cascata</h1>
+    <div>
+        Nazione:
+        <select id="nazioni" onchange="setcolori(this.value)">
+            <option value="">-- Scegli la nazione --</option>
+        </select>
+    </div>
+    <div>
+        Colore:
+        <select id="colori" onchange="setsimili(this.value)"></select>
+    </div>
+    <div>
+        Simili:
+        <select id="simili" onchange=""></select>
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
