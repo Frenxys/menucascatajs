@@ -13,7 +13,7 @@ const elencoCibi = {
   "bianco": ["sedano", "cipolla"],
   // aggiungere altri colori e cibi qui
 };
-
+//vicao
 // Popola il menu delle nazioni con le opzioni corrispondenti alle nazioni nell'elenco delle bandiere.
 function popolaMenuNazioni() {
   for (const nazione in elencoBandiere) {
